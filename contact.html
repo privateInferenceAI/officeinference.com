@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Office Inference</title>
+  <meta name="description" content="Email anthony@officeinference.com or use the form. Tell us what you can't put into ChatGPT, and we'll tell you what a system that can costs.">
+  <meta property="og:title" content="Contact — Office Inference">
+  <meta property="og:description" content="Email anthony@officeinference.com or use the form. Tell us what you can't put into ChatGPT, and we'll tell you what a system that can costs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://officeinference.com/contact.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231f4e79'/%3E%3Ccircle cx='8' cy='8' r='3.25' fill='none' stroke='%23ffffff' stroke-width='1.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="shell nav" aria-label="Primary">
+      <a class="brand" href="/">Office Inference</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="shell">
+    <section class="page-head" aria-labelledby="page-title">
+      <div class="measure">
+        <h1 id="page-title">Contact</h1>
+        <p>The fastest way to reach us is email: <a href="mailto:anthony@officeinference.com">anthony@officeinference.com</a>. If you prefer a form, this one lands in the same inbox.</p>
+      </div>
+    </section>
+
+    <section aria-label="Contact form">
+      <div class="measure">
+        <!-- TODO: replace FORM_ID_HERE with the Formspree form ID from the site owner's Formspree account (free tier). One-line change. -->
+        <form class="contact-form" method="POST" action="https://formspree.io/f/FORM_ID_HERE">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit">Send message</button>
+        </form>
+        <p class="form-after">Tell us what you can't put into ChatGPT, and we'll tell you what a system that can costs.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>© 2026 Office Inference</p>
+    </div>
+  </footer>
+</body>
+</html>
