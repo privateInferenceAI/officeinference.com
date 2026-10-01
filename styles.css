@@ -15,23 +15,29 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
   color: var(--text);
   background: var(--bg);
-  line-height: 1.65;
 }
 
-.container {
-  max-width: 64rem;
-  margin: 0 auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.shell {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 40rem) {
+  .shell {
+    padding-inline: 2rem;
+  }
 }
 
 .skip-link {
   position: absolute;
   top: -4rem;
   left: 0.5rem;
-  z-index: 10;
+  z-index: 20;
   background: var(--accent);
   color: #ffffff;
   padding: 0.5rem 0.75rem;
@@ -46,6 +52,10 @@ a {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -53,10 +63,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 0.5rem 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  justify-content: center;
+  gap: 0.35rem 1.75rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 
 .brand {
@@ -68,6 +78,7 @@ a {
 .nav-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.25rem 1.25rem;
   margin: 0;
   padding: 0;
@@ -75,32 +86,41 @@ a {
 }
 
 .nav-links a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 160ms ease-in-out;
 }
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-  text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
 main > section {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
+  scroll-margin-top: 4.5rem;
 }
 
-.hero {
+main > section.hero {
   margin-top: 0;
-  padding-top: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.measure {
+  max-width: 44rem;
+  margin-inline: auto;
 }
 
 h1 {
-  max-width: 24ch;
+  max-width: 22ch;
   margin: 0 0 1.25rem;
-  font-size: clamp(1.75rem, 1.15rem + 2.6vw, 2.5rem);
-  line-height: 1.2;
+  font-size: clamp(2rem, 1.4rem + 2.8vw, 2.75rem);
+  line-height: 1.15;
 }
 
 .lede {
-  max-width: 60ch;
+  max-width: 58ch;
   margin: 0;
   font-size: 1.25rem;
   color: var(--muted);
@@ -108,12 +128,8 @@ h1 {
 
 h2 {
   margin: 0 0 0.75rem;
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   line-height: 1.3;
-}
-
-section p {
-  max-width: 65ch;
 }
 
 .cards {
@@ -130,14 +146,16 @@ section p {
 }
 
 .card {
+  padding: 1.5rem;
+  background: var(--bg);
   border: 1px solid var(--border);
-  padding: 1.75rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.08);
 }
 
 .card h2 {
   margin: 0 0 0.25rem;
   color: var(--accent);
-  font-size: 1.375rem;
 }
 
 .card .tag {
@@ -161,8 +179,7 @@ table {
 
 th,
 td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid var(--border);
+  padding: 0.875rem 1rem;
   text-align: left;
   vertical-align: top;
 }
@@ -170,11 +187,15 @@ td {
 thead th {
   background: var(--accent);
   color: #ffffff;
-  border-bottom: none;
 }
 
 tbody th {
   font-weight: 600;
+}
+
+tbody td,
+tbody th {
+  border-bottom: 1px solid var(--border);
 }
 
 .site-footer {
@@ -184,7 +205,8 @@ tbody th {
 
 .site-footer p {
   margin: 0;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
   color: var(--muted);
+  text-align: center;
 }
