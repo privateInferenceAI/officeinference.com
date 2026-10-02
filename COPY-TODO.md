@@ -5,24 +5,26 @@ instead of editing the live site piecemeal. Delete a line once it ships.
 
 ## Open
 
-### 1. Hero headline (priority)
+### 1. Hero headline
 Current: "AI that answers questions about your business, from your own files."
-Owner's note: sounds bad. We sell an AI setup built specifically for small businesses,
-one that understands them. Get that overall feel in the hook, specifics come later.
-Candidates to choose from (see chat 2026-10-02):
-- "Ask your business anything."
-- "AI that knows your business, not just the internet."
-- "The AI system built for small business."
-- "An AI that already knows your business."
-- "AI sized for a small business."
-- "AI built for how a small business actually runs."
-Decision: PENDING
+DECIDED: owner's own line, from the ground up + built for your business.
+  Owner wrote it with a plain hyphen: "AI - From the ground up. Built for your business"
+  Rendering to confirm: "AI from the ground up. Built for your business."
+Decision: SET (pending hyphen-or-no-hyphen preference)
 
-### 2. Hero lede (depends on the headline above)
+### 2. Hero lede
 Current: "Some businesses need everything to stay in the building. Some don't care.
 We build the same system all three ways."
-Note: this lede explains the three tiers before the reader knows what we sell. It may
-belong lower on the page once the headline is fixed.
+Problem: sets up two kinds of customers, then claims three systems. The reader does the
+math wrong and gets confused. Fix: name the single variable (where documents live) and
+make it one system run three ways.
+Candidates:
+- A. Some businesses need everything to stay in the building. Some don't. Same system
+     either way, run three ways to match.
+- B. Every business has different rules about where its documents can go. It's the same
+     system, run three ways to match.
+- C. How private do your documents need to be? That's the only question that changes the
+     setup. Same system, three ways to run it.
 Decision: PENDING
 
 ### 3. Cloud card ending
