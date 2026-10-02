@@ -1,71 +1,42 @@
 # Copy review queue
 
 Batch list for site copy changes. We collect items here and apply them in one pass
-instead of editing the live site piecemeal. Nothing here is live until we do that pass.
+instead of editing the live site piecemeal.
 
-## Ready to apply
+## Applied
 
-### 1. Hero headline (H1)
-Current: "AI that answers questions about your business, from your own files."
-Replace with: "AI from the ground up. Built for your business."
-Status: DECIDED
+### 2026-10-02 batch pass (commit c2c6bbd)
+- **H1:** "AI from the ground up. Built for your business."
+- **Lede:** "Document security is important. Our systems are built with just that mind."
+- **Meta + og descriptions** updated to match the new lede.
+- **Cloud card:** "Everything you are used to, chat, search, and automation. This model
+  lives in the cloud and you can choose any current model or models. You pay as you go,
+  the way most people are used to. For businesses <strong>without</strong> strict data
+  rules." (the word "without" carries a semantic strong tag)
+- **Dedicated card:** "The same system, deployed into a cloud account you own. Your
+  documents stay inside your own tenancy, under the compliance agreements your cloud
+  provider offers. Regulated work is legally satisfied but your documents still reside on
+  the cloud. This is also a pay as you go arrangement with any model."
+- **In-Office card:** "The same system except everything runs on hardware you own. You can
+  build compliance unique to your situation. Built for businesses where a leaked document
+  isn't an embarrassment, it's just not an option. You own this outright. There are no
+  monthly fees."
 
-### 2. Hero lede
-Current: "Some businesses need everything to stay in the building. Some don't care.
-We build the same system all three ways."
-Replace with: "Document security is important. Our systems are built with just that mind."
-Note: owner wrote "Are systems", corrected to "Our systems".
-Status: DECIDED
-
-### 3. Cloud card body
-Current: "You get the same chat, the same document search, the same automation. The only
-difference: the model doing the thinking is a commercial one from a frontier provider.
-For businesses without strict data rules."
-Replace with: "Everything you are used to, chat, search, and automation. This model lives
-in the cloud and you can choose any current model or models. You pay as you go, the way
-most people are used to. For businesses without strict data rules."
-Emphasis: wrap "without" in <strong>.
-Status: DECIDED
-
-### 4. Dedicated card body
-Current: "The same system, deployed into a cloud account you own. Your documents stay
-inside your own tenancy, under the compliance agreements your cloud provider offers,
-encrypted at rest. Regulated work gets its paperwork satisfied without a server in the
-building."
-Replace with: "The same system, deployed into a cloud account you own. Your documents
-stay inside your own tenancy, under the compliance agreements your cloud provider offers.
-Regulated work is legally satisfied but your documents still reside on the cloud. This is
-also a pay as you go arrangement with any model."
-Note: "any model" confirmed by owner 2026-10-02 as intentional: frontier or self-hosted.
-Status: DECIDED
-
-### 5. In-Office card body
-Supersedes the version applied live earlier today.
-Replace with: "The same system except everything runs on hardware you own. You can build
-compliance unique to your situation. Built for businesses where a leaked document isn't an
-embarrassment, it's just not an option. You own this outright, there are no monthly costs."
-Status: DECIDED
+### Earlier
+- 2026-10-02: "Which one fits" trade-off line rewritten to drop a rule-of-three list.
 
 ## Open
 
-### 6. Comparison table, "Best for" row, Cloud cell
+### Comparison table, "Best for" row, Cloud cell
 Current: "No data rules at all"
 Problem: reads as "for people who don't care".
 Option: "Everyday business documents"
 Status: PENDING
 
-## Applied already (live on the site)
-
-- 2026-10-02: "Which one fits" trade-off line rewritten to drop a rule-of-three list.
-- 2026-10-02: In-Office card stopped listing its own drawbacks. That version is now
-  superseded by queued item 5.
-
-## Flags for the apply pass
-
-- Item 5 reads "You own this outright, there are no monthly costs." That is a comma splice,
-  so it probably wants a period. Also consider "monthly fees" over "monthly costs": power
-  and maintenance are ongoing costs, just not bills from us.
-- Cloud and Dedicated both describe pay-as-you-go pricing. Accurate, but check whether the
-  reader needs the distinction (per-question vs cloud usage).
-- The Cloud card contains a three-item list ("chat, search, and automation"), kept as
+### Lower priority, owner may ignore
+- The Cloud card contains a three-item list ("chat, search, and automation"), left as
   owner-written.
+- Cloud and Dedicated both describe pay-as-you-go pricing. Accurate; check later whether
+  the reader needs the distinction (per-question vs cloud usage).
+- Possible future line: self-hosting a model on rented cloud GPUs is not economical, which
+  is part of why the In-Office tier exists on owned hardware.
