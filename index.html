@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Office Inference</title>
-  <meta name="description" content="Some businesses need everything to stay in the building. Some don't care. Office Inference builds the same system both ways.">
+  <meta name="description" content="Some businesses need everything to stay in the building. Some don't care. Office Inference builds the same system all three ways.">
   <meta property="og:title" content="Office Inference">
-  <meta property="og:description" content="Some businesses need everything to stay in the building. Some don't care. Office Inference builds the same system both ways.">
+  <meta property="og:description" content="Some businesses need everything to stay in the building. Some don't care. Office Inference builds the same system all three ways.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://officeinference.com/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231f4e79'/%3E%3Ccircle cx='8' cy='8' r='3.25' fill='none' stroke='%23ffffff' stroke-width='1.5'/%3E%3C/svg%3E">
@@ -30,84 +30,123 @@
     <section class="hero" aria-labelledby="page-title">
       <div class="measure">
         <h1 id="page-title">AI that answers questions about your business, from your own files.</h1>
-        <p class="lede">Some businesses need everything to stay in the building. Some don't care. We build the same system both ways.</p>
+        <p class="lede">Some businesses need everything to stay in the building. Some don't care. We build the same system all three ways.</p>
       </div>
     </section>
 
     <section id="offerings" aria-label="Offerings">
       <div class="cards">
         <article class="card">
-          <h2>Office Inference Private</h2>
-          <p class="tag">Your hardware, your office.</p>
-          <p>Everything runs on hardware you own. Your staff chats with the system, the system reads your files, and none of it goes anywhere near the internet. Built for businesses where a leaked document isn't an embarrassment, it's a lawsuit.</p>
-        </article>
-        <article class="card">
           <h2>Office Inference Cloud</h2>
           <p class="tag">No hardware required.</p>
-          <p>You get the same chat, the same document search, the same automation. The only difference: the model doing the thinking is a commercial one we reach over the internet. For businesses without strict data rules.</p>
+          <p>You get the same chat, the same document search, the same automation. The only difference: the model doing the thinking is a commercial one from a frontier provider. For businesses without strict data rules.</p>
+        </article>
+        <article class="card">
+          <h2>Office Inference Dedicated</h2>
+          <p class="tag">Your cloud account, under your contracts.</p>
+          <p>The same system, deployed into a cloud account you own. Your documents stay inside your own tenancy, under the compliance agreements your cloud provider offers, encrypted at rest. Regulated work gets its paperwork satisfied without a server in the building.</p>
+        </article>
+        <article class="card">
+          <h2>Office Inference In-Office</h2>
+          <p class="tag">Your hardware, your office.</p>
+          <p>Everything runs on hardware you own. Your staff chats with the system, the system reads your files, and none of it goes anywhere near the internet. Built for businesses where a leaked document isn't an embarrassment, it's a lawsuit. The trade-off is real: you buy the server, you maintain it, and the largest models won't fit on it.</p>
         </article>
       </div>
     </section>
 
-    <section id="compare" aria-label="Private and Cloud comparison">
+    <section id="compare" aria-label="Cloud, Dedicated, and In-Office comparison">
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
               <th scope="col">Feature</th>
-              <th scope="col">Private</th>
               <th scope="col">Cloud</th>
+              <th scope="col">Dedicated</th>
+              <th scope="col">In-Office</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row">Where the AI runs</th>
+              <td>A frontier model provider</td>
+              <td>Frontier models inside your cloud account, or self-hosted on your GPUs</td>
               <td>A server in your office</td>
-              <td>A commercial model via Bedrock or API</td>
             </tr>
             <tr>
               <th scope="row">Where your documents live</th>
+              <td>The provider's infrastructure</td>
+              <td>Your own cloud tenancy</td>
               <td>Your office</td>
-              <td>Dedicated cloud, yours only</td>
             </tr>
             <tr>
-              <th scope="row">What leaves your control</th>
-              <td>Nothing</td>
-              <td>The document excerpts needed to answer your question</td>
+              <th scope="row">Who can physically reach them</th>
+              <td>The provider</td>
+              <td>Your cloud vendor's staff, under contract</td>
+              <td>Only people in your building</td>
+            </tr>
+            <tr>
+              <th scope="row">Compliance paperwork</th>
+              <td>The provider's terms</td>
+              <td>Your cloud provider's agreements, on infrastructure you control</td>
+              <td>Your building, your rules</td>
             </tr>
             <tr>
               <th scope="row">Upfront cost</th>
+              <td>None</td>
+              <td>Low; cloud setup</td>
               <td>Hardware purchase</td>
-              <td>None; monthly usage</td>
+            </tr>
+            <tr>
+              <th scope="row">Ongoing cost</th>
+              <td>Per question, forever</td>
+              <td>Cloud usage, usually below per-question pricing</td>
+              <td>Power and maintenance</td>
+            </tr>
+            <tr>
+              <th scope="row">Largest model available</th>
+              <td>Frontier, always current</td>
+              <td>Frontier through Bedrock, or whatever your GPUs hold</td>
+              <td>Whatever fits the box you buy</td>
+            </tr>
+            <tr>
+              <th scope="row">Works without internet</th>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes</td>
             </tr>
             <tr>
               <th scope="row">Best for</th>
-              <td>Regulated data, strict client contracts</td>
-              <td>Everyone else</td>
+              <td>No data rules at all</td>
+              <td>Regulated work with a cloud budget</td>
+              <td>Maximum control</td>
             </tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <section id="upgrade" aria-labelledby="upgrade-title">
+    <section id="which-fits" aria-labelledby="fits-title">
       <div class="measure">
-        <h2 id="upgrade-title">Start where you are. Move when the rules change.</h2>
-        <p>Cloud is where most clients start because it's more economical in the beginning. When the API bill gets ugly or you need physical control of your data, the move to Private is a hardware swap to a machine in your office. The same system works at your office with a quick switch to a self-hosted LLM.</p>
-      </div>
-    </section>
-
-    <section id="who" aria-labelledby="who-title">
-      <div class="measure">
-        <h2 id="who-title">Who it's for</h2>
-        <p>If your documents have rules attached (patient records, privileged files, or financial data), you can't just hand them to a public chatbot. But you still need the advantages AI provides, so we build the private system that lets you have it.</p>
+        <h2 id="fits-title">Which one fits</h2>
+        <p>If your documents have rules attached (patient records, privileged files, or financial data), you can't just hand them to a public chatbot. But you still need the advantages AI provides, so we build the system that lets you have it.</p>
+        <p>Cloud is the right answer when your documents are ordinary business material and you want the lowest cost and the fastest start.</p>
+        <p>Dedicated is where most regulated work lands. Your documents stay in your own tenancy, the compliance agreements come from your cloud provider, and you pay monthly instead of buying hardware.</p>
+        <p>In-Office is the right answer when you want the data physically incapable of leaving the building, when your internet is unreliable, or when you would rather own the infrastructure. Know the trade-offs going in: you buy the server, you maintain it, and the largest models don't fit on it.</p>
+        <p>If you're not sure, email us. We'll tell you which one fits, and we'll say so when the answer is that you don't need us.</p>
       </div>
     </section>
 
     <section id="how-it-works" aria-labelledby="how-title">
       <div class="measure">
         <h2 id="how-title">How it works</h2>
-        <p>It's not magic, it's more like a layered cake. One slice reads your documents and indexes them. One slice decides which AI model answers what, and logs it. One slice is the chat you actually see. One slice does the grunt work: email drafts, approval routing, reminders. Private means all of it runs in your office. Cloud means the thinking part is rented.</p>
+        <p>It's not magic, it's more like a layered cake. One slice reads your documents and indexes them. One slice decides which AI model answers what, and logs it. One slice is the chat you actually see. One slice does the grunt work: email drafts, approval routing, reminders. In-Office means all of it runs in your building. Dedicated means all of it runs in a cloud account you own. Cloud means the thinking part is handled by a frontier provider.</p>
+      </div>
+    </section>
+
+    <section id="upgrade" aria-labelledby="upgrade-title">
+      <div class="measure">
+        <h2 id="upgrade-title">Start where you are. Move when the rules change.</h2>
+        <p>Cloud is where most clients start because it's the most economical in the beginning. Dedicated is where regulated work usually lands, because the paperwork gets satisfied without buying hardware. In-Office is where clients end up when they want the data physically incapable of leaving, or when the monthly bills pass what a server would have cost. All three run the same system, so moving is a deployment change, not a rebuild.</p>
       </div>
     </section>
   </main>

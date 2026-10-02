@@ -164,7 +164,7 @@ h2 {
 
 @media (min-width: 52rem) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     gap: 2rem;
   }
 }
