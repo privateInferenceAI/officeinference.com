@@ -122,8 +122,8 @@ main > section {
 
 main > section.hero {
   margin-top: 0;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
 }
 
 main > section.page-head {
@@ -148,6 +148,7 @@ h1 {
   margin: 0;
   font-size: 1.25rem;
   color: var(--muted);
+  text-wrap: balance;
 }
 
 h2 {
