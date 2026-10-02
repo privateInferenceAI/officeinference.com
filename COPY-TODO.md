@@ -25,7 +25,7 @@ Replace with: "Everything you are used to, chat, search, and automation. This mo
 in the cloud and you can choose any current model or models. You pay as you go, the way
 most people are used to. For businesses without strict data rules."
 Emphasis: wrap "without" in <strong>.
-Status: DECIDED (sentence order switched so the "without" emphasis lands last)
+Status: DECIDED
 
 ### 4. Dedicated card body
 Current: "The same system, deployed into a cloud account you own. Your documents stay
@@ -36,29 +36,36 @@ Replace with: "The same system, deployed into a cloud account you own. Your docu
 stay inside your own tenancy, under the compliance agreements your cloud provider offers.
 Regulated work is legally satisfied but your documents still reside on the cloud. This is
 also a pay as you go arrangement with any model."
+Note: "any model" confirmed by owner 2026-10-02 as intentional: frontier or self-hosted.
+Status: DECIDED
+
+### 5. In-Office card body
+Supersedes the version applied live earlier today.
+Replace with: "The same system except everything runs on hardware you own. You can build
+compliance unique to your situation. Built for businesses where a leaked document isn't an
+embarrassment, it's just not an option. You own this outright, there are no monthly costs."
 Status: DECIDED
 
 ## Open
 
-### 5. Comparison table, "Best for" row, Cloud cell
+### 6. Comparison table, "Best for" row, Cloud cell
 Current: "No data rules at all"
 Problem: reads as "for people who don't care".
 Option: "Everyday business documents"
 Status: PENDING
 
-## Applied already
+## Applied already (live on the site)
 
-- 2026-10-02: In-Office card stopped listing its own drawbacks. It ends with "You own it
-  outright. Nothing is billed per question, and it keeps working when your internet
-  doesn't." Trade-offs appear only in the "Which one fits" section now.
 - 2026-10-02: "Which one fits" trade-off line rewritten to drop a rule-of-three list.
+- 2026-10-02: In-Office card stopped listing its own drawbacks. That version is now
+  superseded by queued item 5.
 
 ## Flags for the apply pass
 
-- "Any model" in the Dedicated card may overpromise for the self-hosted option: what fits
-  depends on the GPUs in that account. Frontier models are available there through
-  Bedrock, which is likely what the line means.
-- Cloud and Dedicated both describe pay-as-you-go pricing, which is accurate. Worth a look
-  at whether the reader needs the difference spelled out (per-question vs cloud usage).
-- The Cloud card still contains a three-item list ("chat, search, and automation"), kept
-  as owner-written.
+- Item 5 reads "You own this outright, there are no monthly costs." That is a comma splice,
+  so it probably wants a period. Also consider "monthly fees" over "monthly costs": power
+  and maintenance are ongoing costs, just not bills from us.
+- Cloud and Dedicated both describe pay-as-you-go pricing. Accurate, but check whether the
+  reader needs the distinction (per-question vs cloud usage).
+- The Cloud card contains a three-item list ("chat, search, and automation"), kept as
+  owner-written.
