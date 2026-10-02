@@ -5,6 +5,12 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-02 (commit 9e45266)
+- **Lede lengthened** so the hero reads as a block: "Document security is important. Our systems
+  are built with just that in mind, and we run them wherever your rules say they should live."
+  The added clause is agent-written and tier-neutral; the owner can reword it. What matters is
+  length: 110 to 140 characters fills two lines at the current measure.
+
 ### 2026-10-02 (commit 2262825)
 - Comparison table, "Best for" row, Cloud cell: "No data rules at all" became "Everyday
   business documents". The Cloud tier is no longer defined by a negative.
@@ -15,6 +21,7 @@ instead of editing the live site piecemeal.
 ### 2026-10-02 batch pass (commit c2c6bbd)
 - **H1:** "AI from the ground up. Built for your business."
 - **Lede:** "Document security is important. Our systems are built with just that mind."
+  (superseded later the same day by the longer version above)
 - **Meta + og descriptions** updated to match the new lede.
 - **Cloud card:** owner's text, with "without" in <strong>.
 - **Dedicated card:** owner's text, "any model" intentional.
