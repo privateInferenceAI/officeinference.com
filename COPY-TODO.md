@@ -5,38 +5,43 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-02 (commit 2262825)
+- Comparison table, "Best for" row, Cloud cell: "No data rules at all" became "Everyday
+  business documents". The Cloud tier is no longer defined by a negative.
+- Hero spacing tightened (padding-top 5rem to 3rem, bottom 5rem to 3.5rem) so the headline
+  does not float in empty space.
+- Lede wrap balanced so no single word sits alone on its own line.
+
 ### 2026-10-02 batch pass (commit c2c6bbd)
 - **H1:** "AI from the ground up. Built for your business."
 - **Lede:** "Document security is important. Our systems are built with just that mind."
 - **Meta + og descriptions** updated to match the new lede.
-- **Cloud card:** "Everything you are used to, chat, search, and automation. This model
-  lives in the cloud and you can choose any current model or models. You pay as you go,
-  the way most people are used to. For businesses <strong>without</strong> strict data
-  rules." (the word "without" carries a semantic strong tag)
-- **Dedicated card:** "The same system, deployed into a cloud account you own. Your
-  documents stay inside your own tenancy, under the compliance agreements your cloud
-  provider offers. Regulated work is legally satisfied but your documents still reside on
-  the cloud. This is also a pay as you go arrangement with any model."
-- **In-Office card:** "The same system except everything runs on hardware you own. You can
-  build compliance unique to your situation. Built for businesses where a leaked document
-  isn't an embarrassment, it's just not an option. You own this outright. There are no
-  monthly fees."
+- **Cloud card:** owner's text, with "without" in <strong>.
+- **Dedicated card:** owner's text, "any model" intentional.
+- **In-Office card:** owner's text, ends "There are no monthly fees."
 
 ### Earlier
 - 2026-10-02: "Which one fits" trade-off line rewritten to drop a rule-of-three list.
 
 ## Open
 
-### Comparison table, "Best for" row, Cloud cell
-Current: "No data rules at all"
-Problem: reads as "for people who don't care".
-Option: "Everyday business documents"
-Status: PENDING
+### About page rewrite (known, not started)
+Current main paragraph: "At Office Inference we build private AI systems for small
+businesses, and we do the whole job: the hardware, the software, the install, the
+training."
+Issue: "private AI systems" carries the same in-office bias we removed from the homepage.
+Owner has this on the list already.
 
-### Lower priority, owner may ignore
-- The Cloud card contains a three-item list ("chat, search, and automation"), left as
+### LinkedIn profile copy (not site copy)
+The About text was rewritten tier-neutral (see chat 2026-10-02). Tagline still two-tier:
+"Private AI for your business documents. In your building when privacy demands it, in the
+cloud when it doesn't." Suggested: "AI for your business documents, run your way: your
+office, your cloud account, or a frontier model."
+
+### Lower priority
+- Cloud card contains a three-item list ("chat, search, and automation"), left as
   owner-written.
-- Cloud and Dedicated both describe pay-as-you-go pricing. Accurate; check later whether
-  the reader needs the distinction (per-question vs cloud usage).
+- Cloud and Dedicated both mention pay-as-you-go; check later whether the distinction
+  (per-question vs cloud usage) needs spelling out.
 - Possible future line: self-hosting a model on rented cloud GPUs is not economical, which
   is part of why the In-Office tier exists on owned hardware.
