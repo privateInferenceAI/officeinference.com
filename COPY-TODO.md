@@ -5,6 +5,11 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit b0dd455)
+- Dedicated Cloud card body rewritten by owner: dropped the "inside your own tenancy" clause,
+  so the compliance agreements carry the claim. Verbatim except for nothing; applied as
+  written. Optional alternative noted: "stay covered by the compliance agreements".
+
 ### 2026-10-04 (commit eb4dd0d)
 - **Tier model corrected by owner:** both cloud tiers run in a cloud account the client owns.
   The difference is that Dedicated Cloud runs on specific cloud services that satisfy
