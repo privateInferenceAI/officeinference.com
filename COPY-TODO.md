@@ -5,6 +5,17 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit a74bf18)
+- **"Which one fits" rewritten by owner.** The old opening paragraph (documents with
+  rules) is removed. The section is now Cloud, Dedicated Cloud, In-Office, then the
+  closing line. Owner's wording, with three small grammar fixes (you want / It's also very
+  good / company's technical expertise).
+- **"Dedicated" renamed to "Dedicated Cloud" site-wide**: card title, comparison table
+  header, aria-label, "How it works," upgrade path, and the About page.
+- Open cosmetic note: the Dedicated Cloud card title wraps to two lines, which pushes its
+  body text below the other two cards. Options: shorten the card tag to "Your cloud
+  account, your contracts." or shorten the title.
+
 ### 2026-10-04 (commit f563772)
 - Comparison table updated per owner:
   - Row renamed "Where the AI runs" to "Model type": Proprietary models / Proprietary models /
