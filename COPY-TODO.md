@@ -5,6 +5,14 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit 75b6d93)
+- **Upgrade path rewritten by owner.** Names AWS as the online provider, and gives two
+  reasons clients move to In-Office: data control, or the monthly bill.
+- Owner's first sentence arrived as "You can start in any with any service" (garbled); agent
+  rendered it "You can start with any service." Confirm wording with owner.
+- Optional: heading is still "Start where you are. Move when the rules change." but the body
+  now names budget as a trigger too. Candidate: "Move when the rules or the bill change."
+
 ### 2026-10-04 (commit c5661d7)
 - **"How it works" rewritten by owner.** Cake metaphor kept, "slice" became "layer", and
   each tier is now described the same way: where it lives, what models it runs, and whether
