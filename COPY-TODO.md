@@ -73,12 +73,20 @@ instead of editing the live site piecemeal.
 
 ## Open
 
-### About page rewrite (known, not started)
-Current main paragraph: "At Office Inference we build private AI systems for small
-businesses, and we do the whole job: the hardware, the software, the install, the
-training."
-Issue: "private AI systems" carries the same in-office bias we removed from the homepage.
-Owner has this on the list already.
+### About page main paragraph (resolved, optional tweak open)
+Current: "At Office Inference we build private AI systems for small businesses, and we do
+the whole job: the hardware, the software, the install, the training."
+Resolution 2026-10-04: owner confirmed the wording is correct. "Private" means dedicated to
+the client, not on-premises: a Dedicated Cloud deployment is private infrastructure in the
+client's own cloud account, and In-Office is private hardware on their floor. Keeping the
+word is also the better marketing choice, since it is what buyers search for.
+Optional tweak (owner to decide, not applied): name both places so "private" cannot be read
+as on-prem only.
+  - A. "...private AI systems for small businesses, in the cloud or in your office, and we
+    do the whole job: the hardware, the software, the install, the training."
+  - B. "...private AI systems for small businesses. Some run in the cloud, some run on
+    hardware in your office. We do the whole job either way: the hardware, the software,
+    the install, the training."
 
 ### LinkedIn profile copy (not site copy)
 The About text was rewritten tier-neutral (see chat 2026-10-02). Tagline still two-tier:
