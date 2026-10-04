@@ -5,6 +5,17 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit eb4dd0d)
+- **Tier model corrected by owner:** both cloud tiers run in a cloud account the client owns.
+  The difference is that Dedicated Cloud runs on specific cloud services that satisfy
+  regulated and compliance rules. This invalidated three table rows written under the old
+  assumption (documents live / who can reach them / compliance paperwork) and they were
+  rewritten.
+- Tags: Cloud now "Your own cloud account." Dedicated Cloud now "Compliance-grade services."
+  (chosen to keep the tiers distinguishable; owner may prefer them identical).
+- Open: the Dedicated Cloud card body still reads as if owning the cloud account were unique
+  to that tier. It needs a rewrite that leads with compliance-grade services.
+
 ### 2026-10-04 (commit 4c14f62)
 - **Card headers now align by structure, not by reserved space.** Every card title is
   deliberately two lines ("Office Inference" / tier name), every tag is one line, so the
