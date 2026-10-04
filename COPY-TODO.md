@@ -5,6 +5,14 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit 23f072c)
+- Stylesheet link is now versioned (`styles.css?v=2`) on all four pages. Reason: the HTML
+  was cache-busted by hand but the CSS URL never changed, so browsers and the CDN kept
+  serving stale CSS for up to 10 minutes after a stylesheet edit. Bump the `?v=` number
+  whenever styles.css changes.
+- Verified alignment at 900px, 1000px, 1100px, 1200px and 1400px. Below roughly 1000px the
+  cards reflow to two columns, and bodies still align within each row.
+
 ### 2026-10-04 (commit 6b794be)
 - Card titles now reserve two lines of height as well as tags, so all three card bodies and
   all three tags align in clean horizontal bands. Cards are taller as a result.
