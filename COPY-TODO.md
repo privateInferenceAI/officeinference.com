@@ -5,6 +5,13 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit c5661d7)
+- **"How it works" rewritten by owner.** Cake metaphor kept, "slice" became "layer", and
+  each tier is now described the same way: where it lives, what models it runs, and whether
+  it satisfies compliance.
+  Grammar fixes applied: "lives in on" to "lives on"; "in a online" to "on an online";
+  "runs are" to "runs"; "also can satisfies" to "can also satisfy".
+
 ### 2026-10-04 (commit a74bf18)
 - **"Which one fits" rewritten by owner.** The old opening paragraph (documents with
   rules) is removed. The section is now Cloud, Dedicated Cloud, In-Office, then the
