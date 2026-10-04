@@ -5,6 +5,16 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit e0cdacd)
+- Card tags now reserve two lines of height, so all three card bodies start at the same
+  height even when a card name or tag wraps (the Dedicated Cloud card wraps on both). Cards
+  are slightly taller as a result. Revert path: drop min-height from .card .tag.
+
+### 2026-10-04 (commit bbca0c0)
+- About page main paragraph: "At Office Inference we build private AI systems for small
+  businesses, in the cloud or in your office, and we do the whole job: the hardware, the
+  software, the install, the training." (owner chose option A)
+
 ### 2026-10-04 (commit c53c29f)
 - **About page, "Where we work" rewritten by owner.** Cloud and Dedicated Cloud builds
   come first now, then In-Office installs. The joined "- If you've got" became a period.
