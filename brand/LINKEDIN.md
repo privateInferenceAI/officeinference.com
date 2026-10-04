@@ -16,9 +16,10 @@ live page changes, so the site and LinkedIn never drift apart.
 
 ## Tagline
 
-Owner updated the tagline directly on LinkedIn on 2026-10-04. Last agent draft, for
-reference only: "AI for your business documents, run your way: your office, your cloud
-account, or a frontier model." Confirm the live version and paste it here.
+Live on LinkedIn as of 2026-10-04 (owner's wording):
+
+> AI for your business, run your way: your office, your cloud account, or a data compliant
+> cloud account.
 
 ## About
 
