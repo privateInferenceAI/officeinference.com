@@ -5,6 +5,16 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit 4c14f62)
+- **Card headers now align by structure, not by reserved space.** Every card title is
+  deliberately two lines ("Office Inference" / tier name), every tag is one line, so the
+  bodies line up with no artificial gap under the titles. Both min-height reservations were
+  removed.
+- The Dedicated Cloud tag was shortened from "Your cloud account, under your contracts." to
+  "Your own cloud account." so it fits one line. Owner may want different words.
+- Stylesheet version bumped to ?v=3 (see the caching note above).
+- LinkedIn tagline stored in brand/LINKEDIN.md from the owner's live version.
+
 ### 2026-10-04 (commit 23f072c)
 - Stylesheet link is now versioned (`styles.css?v=2`) on all four pages. Reason: the HTML
   was cache-busted by hand but the CSS URL never changed, so browsers and the CDN kept
