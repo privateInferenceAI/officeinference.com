@@ -5,6 +5,10 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit c53c29f)
+- **About page, "Where we work" rewritten by owner.** Cloud and Dedicated Cloud builds
+  come first now, then In-Office installs. The joined "- If you've got" became a period.
+
 ### 2026-10-04 (commit 75b6d93)
 - **Upgrade path rewritten by owner.** Names AWS as the online provider, and gives two
   reasons clients move to In-Office: data control, or the monthly bill.
