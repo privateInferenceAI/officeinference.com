@@ -24,7 +24,7 @@ instead of editing the live site piecemeal.
   - Ongoing cost: Cloud usage, per token (both cloud tiers) / Power and maintenance.
   - Largest model available: Frontier, always current / Frontier, same as Cloud / Whatever
     your hardware will hold. (Open weight dropped here because "Model type" already says it.)
-- Note: Dedicated can also reach open-weight models via Bedrock, so "Proprietary models"
+- Note: Dedicated Cloud can also reach open-weight models via Bedrock, so "Proprietary models"
   there is the default, not a limit.
 
 ### 2026-10-02 (commit 9e45266)
@@ -46,7 +46,7 @@ instead of editing the live site piecemeal.
   (superseded later the same day by the longer version above)
 - **Meta + og descriptions** updated to match the new lede.
 - **Cloud card:** owner's text, with "without" in <strong>.
-- **Dedicated card:** owner's text, "any model" intentional.
+- **Dedicated Cloud card:** owner's text, "any model" intentional.
 - **In-Office card:** owner's text, ends "There are no monthly fees."
 
 ### Earlier
@@ -70,7 +70,7 @@ office, your cloud account, or a frontier model."
 ### Lower priority
 - Cloud card contains a three-item list ("chat, search, and automation"), left as
   owner-written.
-- Cloud and Dedicated both mention pay-as-you-go; check later whether the distinction
+- Cloud and Dedicated Cloud both mention pay-as-you-go; check later whether the distinction
   (per-question vs cloud usage) needs spelling out.
 - Possible future line: self-hosting a model on rented cloud GPUs is not economical, which
   is part of why the In-Office tier exists on owned hardware.
