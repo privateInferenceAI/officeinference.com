@@ -13,8 +13,12 @@ instead of editing the live site piecemeal.
   rewritten.
 - Tags: Cloud now "Your own cloud account." Dedicated Cloud now "Compliance-grade services."
   (chosen to keep the tiers distinguishable; owner may prefer them identical).
-- Open: the Dedicated Cloud card body still reads as if owning the cloud account were unique
-  to that tier. It needs a rewrite that leads with compliance-grade services.
+- RESOLVED 2026-10-04: owner confirmed the Dedicated Cloud card body is correct. The clause
+  that carries the legal weight is "under the compliance agreements your cloud provider
+  offers". Note for the record: "tenancy" is cloud architecture vocabulary, not a legal
+  term of art, and every cloud account is already its own isolated tenancy. If Dedicated
+  Cloud ever uses single-tenant hardware (AWS Dedicated Hosts or Instances), that is a
+  stronger claim worth stating explicitly.
 
 ### 2026-10-04 (commit 4c14f62)
 - **Card headers now align by structure, not by reserved space.** Every card title is
