@@ -5,6 +5,17 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit f563772)
+- Comparison table updated per owner:
+  - Row renamed "Where the AI runs" to "Model type": Proprietary models / Proprietary models /
+    Open weight / open source.
+  - Upfront cost: Cloud setup / Cloud setup / Hardware purchase and setup.
+  - Ongoing cost: Cloud usage, per token (both cloud tiers) / Power and maintenance.
+  - Largest model available: Frontier, always current / Frontier, same as Cloud / Whatever
+    your hardware will hold. (Open weight dropped here because "Model type" already says it.)
+- Note: Dedicated can also reach open-weight models via Bedrock, so "Proprietary models"
+  there is the default, not a limit.
+
 ### 2026-10-02 (commit 9e45266)
 - **Lede lengthened** so the hero reads as a block: "Document security is important. Our systems
   are built with just that in mind, and we run them wherever your rules say they should live."
