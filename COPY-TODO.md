@@ -5,6 +5,11 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-04 (commit 6b794be)
+- Card titles now reserve two lines of height as well as tags, so all three card bodies and
+  all three tags align in clean horizontal bands. Cards are taller as a result.
+- Owner fixed the LinkedIn tagline himself; that item is closed.
+
 ### 2026-10-04 (commit e0cdacd)
 - Card tags now reserve two lines of height, so all three card bodies start at the same
   height even when a card name or tag wraps (the Dedicated Cloud card wraps on both). Cards
