@@ -181,6 +181,8 @@ h2 {
 .card h2 {
   margin: 0 0 0.25rem;
   color: var(--accent);
+  /* Reserve two title lines so every card body starts at the same height. */
+  min-height: 2.6em;
 }
 
 .card .tag {
