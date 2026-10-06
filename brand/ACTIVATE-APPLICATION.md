@@ -1,51 +1,66 @@
 # AWS Activate application — draft answers
 
-Reusable copy for the Activate profile and credit application. Update it after each submission.
+Reusable copy for the Activate profile and credit application. Update after each submission.
 
-## Short version (one-line field, ~200 chars)
+## The three products
 
-Office Inference builds private AI systems for small businesses, so staff can ask questions
-and automate work from their own documents without that data leaving their control.
+| Product | Where it runs | Models | Who it is for |
+|---|---|---|---|
+| **In-Office** | Hardware in the customer's building | Open weight / open source | Anyone who wants to own the system. Works with or without compliance requirements |
+| **Dedicated Cloud** | A cloud account the customer owns, on compliance-grade services | Commercial (Bedrock) | Companies with compliance needs |
+| **Cloud** | Standard cloud services | Commercial from a frontier provider | Companies with no compliance needs. Cheapest and fastest to start |
+
+One core stack behind all three: LiteLLM gateway, document pipeline with vector search, chat
+interface, workflow automation.
+
+## Short version (one-line field, ~190 chars)
+
+Office Inference builds three AI systems for small businesses: one that runs in their
+building on open weight models, and two cloud options, one for regulated work and one for
+everyone else.
 
 ## "Tell us what you are building"
 
-Office Inference builds private AI systems for small businesses whose client documents can't
-go into public chatbots. A medical practice or a law firm gets a chat and automation system
-that answers questions from its own files.
+Office Inference builds three AI systems for small businesses. They share one core stack and
+differ in where the models run and what compliance paperwork is involved.
 
-The same system runs three ways. Cloud uses commercial models from a frontier provider and is
-the cheapest and fastest to start. Dedicated Cloud runs the stack in a cloud account the
-customer owns, on compliance-grade AWS services that satisfy regulated work. In-Office runs
-entirely on hardware in the customer's building with open weight models, so nothing leaves
-the premises.
+In-Office runs on hardware in the customer's building, using open weight and open source
+models. It suits a business that wants to own the system outright, with or without compliance
+requirements.
 
-The stack is a LiteLLM gateway in front of the models, a document pipeline with vector search,
+Dedicated Cloud runs the same system in a cloud account the customer owns, on compliance-grade
+AWS services, for businesses that have to satisfy regulated work.
+
+Cloud runs it on standard cloud services with commercial models from a frontier provider, for
+businesses that have no compliance needs. It is the cheapest and fastest to start.
+
+The core is a LiteLLM gateway in front of the models, a document pipeline with vector search,
 a chat interface, and workflow automation. I build and deploy all of it, including the AWS
-infrastructure in Terraform. On AWS that means EC2 GPU instances for the self-hosted tier,
-Bedrock for commercial models, plus S3 and Secrets Manager.
+infrastructure in Terraform. On AWS that means EC2 GPU instances for the self-hosted product,
+Bedrock for the commercial models, plus S3 and Secrets Manager.
 
 The business is self-funded and pre-revenue. I'm based in northwest Connecticut and deploy
 remotely or on site.
 
 ## "How will your customers interact with your product?"
 
-Through a chat window in a browser, the way they already use ChatGPT, except the answers come
-from their own documents. Staff ask questions in plain language and get answers with the
-source documents cited.
+All three systems are used the same way: through a chat window in a browser, the way staff
+already use ChatGPT, except the answers come from the customer's own documents. Staff ask
+questions in plain language and get answers with the source documents cited.
 
 Office staff upload documents through the same interface and the system indexes them
-automatically, so a new file is searchable within minutes. Automated work happens in the
-background, like drafting emails and chasing approvals. Administrators get a dashboard for
+automatically, so a new file is searchable within minutes. Automated work runs in the
+background, like drafting emails and chasing approvals, and administrators get a dashboard for
 users and permissions.
 
-In-Office customers reach the system over their own network. Cloud and Dedicated Cloud
-customers reach it at a web address provisioned in their AWS account.
+Only where it runs changes. In-Office customers reach the system over their own network.
+Dedicated Cloud customers reach it at a web address provisioned in their own AWS account, and
+access can be limited to their network. Cloud customers reach it at a web address we provision.
 
 ## Notes for the application
 
 - Keep **self-funded** as the funding stage. That is what the Founders tier is for.
 - Confirm the AWS account is on the **Paid Tier Plan** before submitting.
-- Name real AWS services in the use case (EC2 GPU, Bedrock, S3, Secrets Manager). Reviewers
-  look for that.
+- Name real AWS services in the use case (EC2 GPU, Bedrock, S3, Secrets Manager).
 - If asked whether the organization previously received Activate credits, answer honestly and
   reference this as a separate business.
