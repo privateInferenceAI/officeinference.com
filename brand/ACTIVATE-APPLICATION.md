@@ -2,6 +2,9 @@
 
 Reusable copy for the Activate profile and credit application. Update after each submission.
 
+**Status: submitted 2026-10-06** via the Mercury perk (Portfolio tier, OrgID code on file in
+the admin handoff). The answers below are the versions that were submitted.
+
 ## The three products
 
 | Product | Where it runs | Models | Who it is for |
@@ -13,31 +16,33 @@ Reusable copy for the Activate profile and credit application. Update after each
 One core stack behind all three: LiteLLM gateway, document pipeline with vector search, chat
 interface, workflow automation.
 
-## Short version (one-line field, ~190 chars)
+## Short version (one-line field, ~194 chars)
 
 Office Inference builds three AI systems for small businesses: one that runs in their
-building on open weight models, and two cloud options, one for regulated work and one for
+building on open weight models, and two AWS cloud options, one for regulated work and one for
 everyone else.
 
-## "Tell us what you are building"
+## "Tell us what you are building" (~200 words)
 
-Office Inference builds three AI systems for small businesses. They share one core stack and
-differ in where the models run and what compliance paperwork is involved.
+Office Inference builds AI systems for small businesses such as medical practices, law firms,
+and accounting firms. We sell three products that share one core stack and differ in where
+the models run and what compliance paperwork is involved.
 
 In-Office runs on hardware in the customer's building, using open weight and open source
 models. It suits a business that wants to own the system outright, with or without compliance
 requirements.
 
-Dedicated Cloud runs the same system in a cloud account the customer owns, on compliance-grade
-AWS services, for businesses that have to satisfy regulated work.
+Dedicated Cloud runs the same system in a cloud account the customer owns, on
+compliance-grade AWS services with commercial models on Bedrock, for businesses that have to
+satisfy regulated work.
 
-Cloud runs it on standard cloud services with commercial models from a frontier provider, for
-businesses that have no compliance needs. It is the cheapest and fastest to start.
+Cloud runs on standard AWS services with commercial frontier models, for businesses with no
+compliance needs. It is the cheapest and fastest to start.
 
-The core is a LiteLLM gateway in front of the models, a document pipeline with vector search,
-a chat interface, and workflow automation. I build and deploy all of it, including the AWS
-infrastructure in Terraform. On AWS that means EC2 GPU instances for the self-hosted product,
-Bedrock for the commercial models, plus S3 and Secrets Manager.
+The core stack is a LiteLLM gateway in front of the models, a document pipeline with vector
+search, a chat interface, and workflow automation. We build and deploy all of it, including
+the AWS infrastructure in Terraform. On AWS that means EC2 GPU instances for the self-hosted
+builds, Bedrock for the commercial models, plus S3 and Secrets Manager.
 
 The business is self-funded and pre-revenue. I'm based in northwest Connecticut and deploy
 remotely or on site.
