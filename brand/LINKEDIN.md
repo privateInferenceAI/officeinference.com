@@ -29,11 +29,11 @@ someone else's computers.
 Office Inference builds private AI systems for small businesses, in the cloud or in your
 office.
 
-Cloud sends your questions to a commercial model from a frontier provider, along with the
+Standard Cloud sends your questions to a commercial model from a frontier provider, along with the
 document excerpts needed to answer them. You pay as you go, and you can pick any current
 model.
 
-Dedicated Cloud runs the same system in a cloud account you own, under the compliance
+Compliant Cloud runs the same system in a cloud account you own, under the compliance
 agreements your cloud provider offers (AWS). Regulated work gets its requirements satisfied
 without buying hardware.
 
@@ -47,8 +47,8 @@ Based in northwest Connecticut. Working with clients anywhere.
 
 ## Alignment notes
 
-- "Dedicated Cloud" is the current tier name everywhere, including here.
-- Cloud and Dedicated Cloud run proprietary models; In-Office runs open weight and open
+- "Compliant Cloud" is the current tier name everywhere, including here.
+- Cloud and Compliant Cloud run proprietary models; In-Office runs open weight and open
   source models. This matches the comparison table on the site.
 - "Private" describes systems dedicated to one client, not a location. In-Office is not the
   only private option.

@@ -10,7 +10,7 @@ the admin handoff). The answers below are the versions that were submitted.
 | Product | Where it runs | Models | Who it is for |
 |---|---|---|---|
 | **In-Office** | Hardware in the customer's building | Open weight / open source | Anyone who wants to own the system. Works with or without compliance requirements |
-| **Dedicated Cloud** | A cloud account the customer owns, on compliance-grade services | Commercial (Bedrock) | Companies with compliance needs |
+| **Compliant Cloud** | A cloud account the customer owns, on compliance-grade services | Commercial (Bedrock) | Companies with compliance needs |
 | **Cloud** | Standard cloud services | Commercial from a frontier provider | Companies with no compliance needs. Cheapest and fastest to start |
 
 One core stack behind all three: LiteLLM gateway, document pipeline with vector search, chat
@@ -32,11 +32,11 @@ In-Office runs on hardware in the customer's building, using open weight and ope
 models. It suits a business that wants to own the system outright, with or without compliance
 requirements.
 
-Dedicated Cloud runs the same system in a cloud account the customer owns, on
+Compliant Cloud runs the same system in a cloud account the customer owns, on
 compliance-grade AWS services with commercial models on Bedrock, for businesses that have to
 satisfy regulated work.
 
-Cloud runs on standard AWS services with commercial frontier models, for businesses with no
+Standard Cloud runs on standard AWS services with commercial frontier models, for businesses with no
 compliance needs. It is the cheapest and fastest to start.
 
 The core stack is a LiteLLM gateway in front of the models, a document pipeline with vector
@@ -59,8 +59,8 @@ background, like drafting emails and chasing approvals, and administrators get a
 users and permissions.
 
 Only where it runs changes. In-Office customers reach the system over their own network.
-Dedicated Cloud customers reach it at a web address provisioned in their own AWS account, and
-access can be limited to their network. Cloud customers reach it at a web address we provision.
+Compliant Cloud customers reach it at a web address provisioned in their own AWS account, and
+access can be limited to their network. Standard Cloud customers reach it at a web address we provision.
 
 ## Notes for the application
 

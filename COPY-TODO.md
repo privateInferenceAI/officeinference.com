@@ -6,19 +6,19 @@ instead of editing the live site piecemeal.
 ## Applied
 
 ### 2026-10-04 (commit b0dd455)
-- Dedicated Cloud card body rewritten by owner: dropped the "inside your own tenancy" clause,
+- Compliant Cloud card body rewritten by owner: dropped the "inside your own tenancy" clause,
   so the compliance agreements carry the claim. Verbatim except for nothing; applied as
   written. Optional alternative noted: "stay covered by the compliance agreements".
 
 ### 2026-10-04 (commit eb4dd0d)
 - **Tier model corrected by owner:** both cloud tiers run in a cloud account the client owns.
-  The difference is that Dedicated Cloud runs on specific cloud services that satisfy
+  The difference is that Compliant Cloud runs on specific cloud services that satisfy
   regulated and compliance rules. This invalidated three table rows written under the old
   assumption (documents live / who can reach them / compliance paperwork) and they were
   rewritten.
-- Tags: Cloud now "Your own cloud account." Dedicated Cloud now "Compliance-grade services."
+- Tags: Cloud now "Your own cloud account." Compliant Cloud now "Compliance-grade services."
   (chosen to keep the tiers distinguishable; owner may prefer them identical).
-- RESOLVED 2026-10-04: owner confirmed the Dedicated Cloud card body is correct. The clause
+- RESOLVED 2026-10-04: owner confirmed the Compliant Cloud card body is correct. The clause
   that carries the legal weight is "under the compliance agreements your cloud provider
   offers". Note for the record: "tenancy" is cloud architecture vocabulary, not a legal
   term of art, and every cloud account is already its own isolated tenancy. If Dedicated
@@ -30,7 +30,7 @@ instead of editing the live site piecemeal.
   deliberately two lines ("Office Inference" / tier name), every tag is one line, so the
   bodies line up with no artificial gap under the titles. Both min-height reservations were
   removed.
-- The Dedicated Cloud tag was shortened from "Your cloud account, under your contracts." to
+- The Compliant Cloud tag was shortened from "Your cloud account, under your contracts." to
   "Your own cloud account." so it fits one line. Owner may want different words.
 - Stylesheet version bumped to ?v=3 (see the caching note above).
 - LinkedIn tagline stored in brand/LINKEDIN.md from the owner's live version.
@@ -50,7 +50,7 @@ instead of editing the live site piecemeal.
 
 ### 2026-10-04 (commit e0cdacd)
 - Card tags now reserve two lines of height, so all three card bodies start at the same
-  height even when a card name or tag wraps (the Dedicated Cloud card wraps on both). Cards
+  height even when a card name or tag wraps (the Compliant Cloud card wraps on both). Cards
   are slightly taller as a result. Revert path: drop min-height from .card .tag.
 
 ### 2026-10-04 (commit bbca0c0)
@@ -59,7 +59,7 @@ instead of editing the live site piecemeal.
   software, the install, the training." (owner chose option A)
 
 ### 2026-10-04 (commit c53c29f)
-- **About page, "Where we work" rewritten by owner.** Cloud and Dedicated Cloud builds
+- **About page, "Where we work" rewritten by owner.** Cloud and Compliant Cloud builds
   come first now, then In-Office installs. The joined "- If you've got" became a period.
 
 ### 2026-10-04 (commit 75b6d93)
@@ -79,12 +79,12 @@ instead of editing the live site piecemeal.
 
 ### 2026-10-04 (commit a74bf18)
 - **"Which one fits" rewritten by owner.** The old opening paragraph (documents with
-  rules) is removed. The section is now Cloud, Dedicated Cloud, In-Office, then the
+  rules) is removed. The section is now Cloud, Compliant Cloud, In-Office, then the
   closing line. Owner's wording, with three small grammar fixes (you want / It's also very
   good / company's technical expertise).
-- **"Dedicated" renamed to "Dedicated Cloud" site-wide**: card title, comparison table
+- **"Dedicated" renamed to "Compliant Cloud" site-wide**: card title, comparison table
   header, aria-label, "How it works," upgrade path, and the About page.
-- Open cosmetic note: the Dedicated Cloud card title wraps to two lines, which pushes its
+- Open cosmetic note: the Compliant Cloud card title wraps to two lines, which pushes its
   body text below the other two cards. Options: shorten the card tag to "Your cloud
   account, your contracts." or shorten the title.
 
@@ -94,9 +94,9 @@ instead of editing the live site piecemeal.
     Open weight / open source.
   - Upfront cost: Cloud setup / Cloud setup / Hardware purchase and setup.
   - Ongoing cost: Cloud usage, per token (both cloud tiers) / Power and maintenance.
-  - Largest model available: Frontier, always current / Frontier, same as Cloud / Whatever
+  - Largest model available: Frontier, always current / Frontier, same as Standard Cloud / Whatever
     your hardware will hold. (Open weight dropped here because "Model type" already says it.)
-- Note: Dedicated Cloud can also reach open-weight models via Bedrock, so "Proprietary models"
+- Note: Compliant Cloud can also reach open-weight models via Bedrock, so "Proprietary models"
   there is the default, not a limit.
 
 ### 2026-10-02 (commit 9e45266)
@@ -118,7 +118,7 @@ instead of editing the live site piecemeal.
   (superseded later the same day by the longer version above)
 - **Meta + og descriptions** updated to match the new lede.
 - **Cloud card:** owner's text, with "without" in <strong>.
-- **Dedicated Cloud card:** owner's text, "any model" intentional.
+- **Compliant Cloud card:** owner's text, "any model" intentional.
 - **In-Office card:** owner's text, ends "There are no monthly fees."
 
 ### Earlier
@@ -130,7 +130,7 @@ instead of editing the live site piecemeal.
 Current: "At Office Inference we build private AI systems for small businesses, and we do
 the whole job: the hardware, the software, the install, the training."
 Resolution 2026-10-04: owner confirmed the wording is correct. "Private" means dedicated to
-the client, not on-premises: a Dedicated Cloud deployment is private infrastructure in the
+the client, not on-premises: a Compliant Cloud deployment is private infrastructure in the
 client's own cloud account, and In-Office is private hardware on their floor. Keeping the
 word is also the better marketing choice, since it is what buyers search for.
 Optional tweak (owner to decide, not applied): name both places so "private" cannot be read
@@ -150,7 +150,7 @@ office, your cloud account, or a frontier model."
 ### Lower priority
 - Cloud card contains a three-item list ("chat, search, and automation"), left as
   owner-written.
-- Cloud and Dedicated Cloud both mention pay-as-you-go; check later whether the distinction
+- Cloud and Compliant Cloud both mention pay-as-you-go; check later whether the distinction
   (per-question vs cloud usage) needs spelling out.
 - Possible future line: self-hosting a model on rented cloud GPUs is not economical, which
   is part of why the In-Office tier exists on owned hardware.
