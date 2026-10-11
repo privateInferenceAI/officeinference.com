@@ -126,6 +126,34 @@ instead of editing the live site piecemeal.
 
 ## Open
 
+### Billing language contradicts the commercial model (open, found 2026-10-11)
+Two places still describe the client paying **us** for cloud usage and tokens:
+
+- "Standard Cloud works well if ... you want to get up and running quickly with a monthly
+  cloud and per token bill."
+- The comparison table's ongoing-cost row reads "Cloud usage, per token" for both cloud tiers.
+
+The commercial model is the opposite: **the client owns the cloud account and pays the
+provider directly.** We charge a build fee plus an optional retainer, and we never pass
+through cloud costs. As written, a prospect expects an invoice from us for tokens, which we
+will not send, and the comparison table misses the fact that the client's own account is what
+makes the compliance story work.
+
+Not applied. Owner is finishing the build first.
+
+### Standard Cloud Hosted is not on the site (open, found 2026-10-11)
+The site has three cards: Standard Cloud, Compliant Cloud, In-Office. The offering model has
+four, with **Standard Cloud Hosted** running in our account, prepaid, ten seats minimum.
+
+Decision needed rather than an edit: give it a card, or leave it off deliberately and record
+why in `brand/BUSINESS-SUMMARY.md` so it does not get added later by reflex.
+
+### Parked 2026-10-11
+The owner is working through the cloud build before making further copy changes, and some
+decisions are still open. Items above are collected here so they are not lost and not
+re-litigated piecemeal. The only coupling to the build: the offering **names** are now correct
+on the site and in the build brief, so the build does not depend on any open copy item.
+
 ### About page main paragraph (resolved, optional tweak open)
 Current: "At Office Inference we build private AI systems for small businesses, and we do
 the whole job: the hardware, the software, the install, the training."
