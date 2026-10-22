@@ -51,7 +51,7 @@
         <article class="card">
           <h2>Office Inference<br>In-Office</h2>
           <p class="tag">Your hardware, your office.</p>
-          <p>The same system except everything runs on hardware you own. You can build compliance unique to your situation. Built for businesses where a leaked document isn't an embarrassment, it's just not an option. You own this outright. There are no monthly fees.</p>
+          <p>The same system, running on hardware in your building. You can build compliance unique to your situation. Built for businesses where a leaked document isn't an embarrassment, it's just not an option. No per-token fees. You pay for power and maintenance, and a support contract is optional. Entry systems start around $30,000 in hardware, and the price goes up with the model.</p>
         </article>
       </div>
     </section>
@@ -84,7 +84,7 @@
               <th scope="row">Who can physically reach them</th>
               <td>Your cloud provider, and the model provider for excerpts sent</td>
               <td>Your cloud provider's staff, under compliance agreements</td>
-              <td>Only people in your building</td>
+              <td>Only people in your building, plus approved support sessions</td>
             </tr>
             <tr>
               <th scope="row">Compliance paperwork</th>
@@ -102,19 +102,19 @@
               <th scope="row">Ongoing cost</th>
               <td>Cloud usage, per token</td>
               <td>Cloud usage, per token</td>
-              <td>Power / maintenance</td>
+              <td>Power, cooling, maintenance, support (optional)</td>
             </tr>
             <tr>
               <th scope="row">Largest model available</th>
               <td>Frontier, always current</td>
               <td>Frontier, same as Standard Cloud</td>
-              <td>Whatever your hardware will hold</td>
+              <td>Mid-size open models. Frontier-class models need a server room.</td>
             </tr>
             <tr>
               <th scope="row">Works without internet</th>
               <td>No</td>
               <td>No</td>
-              <td>Yes</td>
+              <td>Yes, once installed</td>
             </tr>
             <tr>
               <th scope="row">Best for</th>
@@ -132,8 +132,18 @@
         <h2 id="fits-title">Which one fits</h2>
         <p>Standard Cloud works well if you have a non-regulated business, want to use the latest AI models, and you want to get up and running quickly with a monthly cloud and per token bill.</p>
         <p>Compliant Cloud works well if you have a regulated or government business and need to satisfy compliance rules. You can access the latest models, start quickly, and also pay a monthly cloud and per token bill.</p>
-        <p>In-Office works well if you want your data never to physically leave your building. It's also very good for satisfying compliance rules, or any stricter company rules. You can use the latest open weight / open source models. The startup consists of purchasing your own hardware but no per token costs. Service contracts are optional, depending on your company's technical expertise.</p>
+        <p>In-Office works well if you want your data never to physically leave your building. It's also very good for satisfying compliance rules, or any stricter company rules. You can use current open weight / open source models. The startup is the hardware, and there are no per token costs. You do pay for power, cooling, and maintenance, and service contracts are optional depending on your company's technical expertise. An entry system starts around $30,000 in hardware. A model in the same class as the cloud's frontier models starts around $400,000 and needs a server room.</p>
         <p>If you're not sure, email us. We'll help you find the option that fits or answer any questions you might have.</p>
+      </div>
+    </section>
+
+    <section id="in-office-cost" aria-labelledby="cost-title">
+      <div class="measure">
+        <h2 id="cost-title">What In-Office costs</h2>
+        <p>Most of the cost is the model. A current open model at full precision, running on one workstation, starts around $30,000 in hardware. That model is good, but it is not a frontier model, and the answers show it.</p>
+        <p>A local model in the same class as the cloud's frontier models needs a server room and about $400,000 in hardware. The current top open-weight model, at full precision, is a data-center machine: six servers, 48 GPUs, and more than $2 million.</p>
+        <p>There are no per-token fees at any size. Power, cooling, backups, updates, and an optional support contract are real monthly costs. On an entry system, power runs a few hundred dollars a month. A support contract, if you want one, is quoted with the system.</p>
+        <p>That is why we offer both. Use the cloud when your documents are allowed to leave. Use In-Office when they are not, and budget for the hardware the job actually needs.</p>
       </div>
     </section>
 
@@ -147,7 +157,7 @@
     <section id="upgrade" aria-labelledby="upgrade-title">
       <div class="measure">
         <h2 id="upgrade-title">Start where you are. Move when the rules change.</h2>
-        <p>You can start with any service. Standard Cloud is the most economical in the beginning. Compliant Cloud is where regulated work usually starts, because compliance is taken care of by your online provider (AWS). In-Office is where clients end up when they want the data physically incapable of leaving, or when the monthly bills really start to dig into your budget. All three run basically the same system, so moving is a deployment change, not a rebuild.</p>
+        <p>You can start with any service. Standard Cloud is the most economical in the beginning. Compliant Cloud is where regulated work usually starts, because compliance is taken care of by your online provider (AWS). In-Office is where clients end up when they want the data physically incapable of leaving, or the system has to keep working without an internet connection. All three run basically the same system, so moving is a deployment change, not a rebuild.</p>
       </div>
     </section>
   </main>
