@@ -5,6 +5,27 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
+### 2026-10-22 (copy/in-office-cost-honesty)
+- **In-Office cost story corrected.** The card no longer says "no monthly fees" or "you own
+  this outright." It says no per-token fees, names power and maintenance, and gives the entry
+  hardware figure. The comparison table's ongoing-cost cell now includes cooling and optional
+  support; the largest-model cell says mid-size open models locally, with frontier-class models
+  needing a server room; the access cell allows approved support sessions; offline is "yes,
+  once installed."
+- **New "What In-Office costs" section** between "Which one fits" and "How it works": about
+  $30,000 for a full-precision entry system, about $400,000 for a frontier-class local model
+  plus a server room, and more than $2 million for the current top open-weight model. Monthly
+  power, cooling, backups, updates, and optional support are stated.
+- **"Which one fits" and the upgrade path** now give the control and offline reasons for
+  In-Office instead of the monthly-bill claim.
+- **About page:** the meta description no longer says "from the GPU server up" (the cloud
+  build has no GPU), and the install paragraph now names the circuit, power, and cooling
+  requirement.
+- Figures come from the local 2026-10-22 cost study. They are entry ranges for orientation,
+  not quotes. Deliberately not changed in this pass: the compliance claims, "any current
+  model," and the pay-as-you-go billing direction, because those depend on agreements and
+  catalog access.
+
 ### 2026-10-04 (commit b0dd455)
 - Compliant Cloud card body rewritten by owner: dropped the "inside your own tenancy" clause,
   so the compliance agreements carry the claim. Verbatim except for nothing; applied as
