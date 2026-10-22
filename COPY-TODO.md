@@ -5,7 +5,7 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
-### 2026-10-22 (copy/in-office-cost-honesty)
+### 2026-10-22 (copy/in-office-cost-honesty, copy/decisions-2026-10-22)
 - **In-Office cost story corrected.** The card no longer says "no monthly fees" or "you own
   this outright." It says no per-token fees, names power and maintenance, and gives the entry
   hardware figure. The comparison table's ongoing-cost cell now includes cooling and optional
@@ -21,10 +21,19 @@ instead of editing the live site piecemeal.
 - **About page:** the meta description no longer says "from the GPU server up" (the cloud
   build has no GPU), and the install paragraph now names the circuit, power, and cooling
   requirement.
+- **Billing direction corrected.** The cloud tiers now say the client's provider bills the
+  account for usage. We charge for the build and an optional service contract, and never pass
+  through cloud costs.
+- **Compliance claims qualified.** Compliant Cloud now says it runs on compliance-grade
+  services under agreements the client signs with the provider and with us, and that we scope
+  the compliance work and document the evidence. "Regulated work is legally satisfied" is
+  gone until our BAA template and insurance exist.
+- **Model claims narrowed.** "Any current model" and "frontier, always current" became the
+  models available in the client's cloud account, kept current by the provider.
+- **Hosted tier stays off the site.** Owner decision 2026-10-22: Standard Cloud Hosted is sold
+  in conversation only until its liability review is done. The site keeps three cards.
 - Figures come from the local 2026-10-22 cost study. They are entry ranges for orientation,
-  not quotes. Deliberately not changed in this pass: the compliance claims, "any current
-  model," and the pay-as-you-go billing direction, because those depend on agreements and
-  catalog access.
+  not quotes.
 
 ### 2026-10-04 (commit b0dd455)
 - Compliant Cloud card body rewritten by owner: dropped the "inside your own tenancy" clause,
