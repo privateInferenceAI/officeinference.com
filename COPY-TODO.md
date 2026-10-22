@@ -5,14 +5,29 @@ instead of editing the live site piecemeal.
 
 ## Applied
 
-### 2026-10-22 (copy/in-office-cost-honesty, copy/decisions-2026-10-22)
+### 2026-10-22 (copy/in-office-cost-honesty, copy/decisions-2026-10-22, copy/two-products-pricing)
+- **Restructured around two products.** Cloud (one product, Standard and Compliant configurations)
+  and In-Office (the private stack). Three cards became two. The comparison table headers group
+  them as Cloud: Standard, Cloud: Compliant, In-Office.
+- **Pricing architecture woven in.** New "What you get, and how pricing works" section: the core is
+  included and never itemized; the configuration decides where the system runs and what data it
+  can carry; the service level decides how much we run. Service levels are Essential care,
+  Managed operations, and Compliant operations. Pricing is a one-time discovery credited against
+  the build, a quoted build, and a monthly service fee. No token billing, no cloud cost
+  pass-through, and In-Office hardware is passed through at cost plus procurement.
+- **No internal price bands published.** The 2026-10-20 memo treats the bands as hypotheses, so
+  the site describes the structure and quotes each engagement.
+- Hero, which-one-fits, how-it-works, and the upgrade path rewritten around the two products.
+- Contact page names the discovery step and fixes the meta description grammar.
+- Brand summary updated to the same two-product framing, with Hosted described as a wrapper on
+  the Standard configuration rather than a third product.
 - **In-Office cost story corrected.** The card no longer says "no monthly fees" or "you own
   this outright." It says no per-token fees, names power and maintenance, and gives the entry
   hardware figure. The comparison table's ongoing-cost cell now includes cooling and optional
   support; the largest-model cell says mid-size open models locally, with frontier-class models
   needing a server room; the access cell allows approved support sessions; offline is "yes,
   once installed."
-- **New "What In-Office costs" section** between "Which one fits" and "How it works": about
+- **New "What In-Office hardware costs" section** between "Which one fits" and "How it works": about
   $30,000 for a full-precision entry system, about $400,000 for a frontier-class local model
   plus a server room, and more than $2 million for the current top open-weight model. Monthly
   power, cooling, backups, updates, and optional support are stated.
@@ -31,7 +46,7 @@ instead of editing the live site piecemeal.
 - **Model claims narrowed.** "Any current model" and "frontier, always current" became the
   models available in the client's cloud account, kept current by the provider.
 - **Hosted tier stays off the site.** Owner decision 2026-10-22: Standard Cloud Hosted is sold
-  in conversation only until its liability review is done. The site keeps three cards.
+  in conversation only until its liability review is done. The site keeps two product cards.
 - Figures come from the local 2026-10-22 cost study. They are entry ranges for orientation,
   not quotes.
 
