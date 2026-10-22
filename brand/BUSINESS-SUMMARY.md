@@ -59,7 +59,8 @@ until the liability question is reviewed.
 
 Standard Cloud is where people start. Compliant Cloud is where regulated work usually lands.
 In-Office is where people end up when they want data physically incapable of leaving, or when
-the monthly bills start to add up. One system, so moving is a deployment change.
+the system has to keep working without an internet connection. It is not the cheaper option at
+small-business volume, and the site says so. One system, so moving is a deployment change.
 
 ## The core stack
 
