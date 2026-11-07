@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /ai-reset/thank-you/
+Disallow: /checklist/thank-you/
 
 Sitemap: https://officeinference.com/sitemap.xml
